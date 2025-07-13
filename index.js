@@ -34,7 +34,7 @@ const server = http.createServer(app);
 
 
 const corsOptions = {
-  origin: 'http://localhost:5173', // or your frontend URL
+  origin: 'https://legendary-monstera-3a79d7.netlify.app/', // or your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
