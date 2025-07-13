@@ -34,7 +34,7 @@ const server = http.createServer(app);
 
 
 const corsOptions = {
-  origin: 'https://gowithflow-frontend.vercel.app', // or your frontend URL
+  origin: '*', // or your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
